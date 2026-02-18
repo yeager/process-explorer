@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Daniel Nylander <po@danielnylander.se>, 2026
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-18 10:19+0100\n"
+"PO-Revision-Date: 2026-02-18 09:21+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
+"Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/304967/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/process_explorer/main.py:17
+msgid "Process Explorer"
+msgstr "Processutforskare"
+
+#: src/process_explorer/main.py:24
+msgid "Toggle theme"
+msgstr "Växla tema"
+
+#: src/process_explorer/main.py:35
+msgid "Search processes..."
+msgstr "Sök efter processer..."
+
+#: src/process_explorer/main.py:39
+msgid "Kill"
+msgstr "Döda"
+
+#: src/process_explorer/main.py:43
+msgid "SIGTERM"
+msgstr "SIGTERM"
+
+#: src/process_explorer/main.py:47
+msgid "Auto-refresh"
+msgstr "Uppdatera automatiskt"
+
+#: src/process_explorer/main.py:69
+msgid "PID"
+msgstr "PID"
+
+#: src/process_explorer/main.py:70
+msgid "Name"
+msgstr "Namn"
+
+#: src/process_explorer/main.py:71
+msgid "User"
+msgstr "Användare"
+
+#: src/process_explorer/main.py:72
+msgid "CPU %"
+msgstr "CPU %"
+
+#: src/process_explorer/main.py:73
+msgid "MEM %"
+msgstr "MINNE %"
+
+#: src/process_explorer/main.py:74
+msgid "RSS MB"
+msgstr "RSS MB"
+
+#: src/process_explorer/main.py:75
+msgid "Status"
+msgstr "Status"
+
+#: src/process_explorer/main.py:231
+msgid "translator-credits"
+msgstr "Daniel Nylander <po@danielnylander.se>, 2026."
+
+#: src/process_explorer/main.py:232
+msgid "GTK4 process explorer"
+msgstr "Processutforskare för GTK4"
+
+#: src/process_explorer/main.py:234
+msgid "Translations"
+msgstr "Översättningar"
