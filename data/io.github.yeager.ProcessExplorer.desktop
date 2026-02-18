@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Process Explorer
+Comment=GTK4 process explorer
+Exec=process-explorer
+Icon=io.github.yeager.ProcessExplorer
+Terminal=false
+Type=Application
+Categories=System;Monitor;
