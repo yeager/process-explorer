@@ -232,7 +232,7 @@ class ProcessExplorerWindow(Adw.ApplicationWindow):
             comments=_("GTK4 process explorer"),
         )
         about.add_link(_("Translations"), "https://www.transifex.com/danielnylander/process-explorer")
-        about.present()
+        about.present(self)
 
 
 class ProcessExplorerApp(Adw.Application):
