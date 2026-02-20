@@ -1,0 +1,17 @@
+name: Sync Transifex Translations
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 4 * * 1"
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Upload .pot
+        env:
+          TX_TOKEN: ${{ secrets.TX_TOKEN }}
+        run: |
+          sudo apt-get install -y gettext
+          xgettext --language=Python --keyword=_ --from-code=UTF-8 -o po/process-explorer.pot src/process_explorer/*.py
+          curl -s -X POST "https://rest.api.transifex.com/resource_strings_async_uploads" -H "Authorization: Bearer $TX_TOKEN" -F "resource=o:danielnylander:p:process-explorer:r:process-explorer-pot" -F "content=@po/process-explorer.pot"
