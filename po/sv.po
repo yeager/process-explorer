@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-18 10:19+0100\n"
+"POT-Creation-Date: 2026-02-22 06:25+0100\n"
 "PO-Revision-Date: 2026-02-18 09:21+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
 "Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/304967/sv/)\n"
@@ -21,66 +21,92 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/process_explorer/main.py:17
+#: src/process_explorer/main.py:38
 msgid "Process Explorer"
 msgstr "Processutforskare"
 
-#: src/process_explorer/main.py:24
+#: src/process_explorer/main.py:45
 msgid "Toggle theme"
 msgstr "Växla tema"
 
-#: src/process_explorer/main.py:35
+#: src/process_explorer/main.py:56
 msgid "Search processes..."
 msgstr "Sök efter processer..."
 
-#: src/process_explorer/main.py:39
+#: src/process_explorer/main.py:60
 msgid "Kill"
 msgstr "Döda"
 
-#: src/process_explorer/main.py:43
+#: src/process_explorer/main.py:64
 msgid "SIGTERM"
 msgstr "SIGTERM"
 
-#: src/process_explorer/main.py:47
+#: src/process_explorer/main.py:68
 msgid "Auto-refresh"
 msgstr "Uppdatera automatiskt"
 
-#: src/process_explorer/main.py:69
+#: src/process_explorer/main.py:90
 msgid "PID"
 msgstr "PID"
 
-#: src/process_explorer/main.py:70
+#: src/process_explorer/main.py:91
 msgid "Name"
 msgstr "Namn"
 
-#: src/process_explorer/main.py:71
+#: src/process_explorer/main.py:92
 msgid "User"
 msgstr "Användare"
 
-#: src/process_explorer/main.py:72
+#: src/process_explorer/main.py:93
 msgid "CPU %"
 msgstr "CPU %"
 
-#: src/process_explorer/main.py:73
+#: src/process_explorer/main.py:94
 msgid "MEM %"
 msgstr "MINNE %"
 
-#: src/process_explorer/main.py:74
+#: src/process_explorer/main.py:95
 msgid "RSS MB"
 msgstr "RSS MB"
 
-#: src/process_explorer/main.py:75
+#: src/process_explorer/main.py:96
 msgid "Status"
 msgstr "Status"
 
-#: src/process_explorer/main.py:231
+#: src/process_explorer/main.py:252
 msgid "translator-credits"
 msgstr "Daniel Nylander <po@danielnylander.se>, 2026."
 
-#: src/process_explorer/main.py:232
+#: src/process_explorer/main.py:253
 msgid "GTK4 process explorer"
 msgstr "Processutforskare för GTK4"
 
-#: src/process_explorer/main.py:234
+#: src/process_explorer/main.py:255
 msgid "Translations"
 msgstr "Översättningar"
+
+#: src/process_explorer/main.py:290
+msgid "Welcome"
+msgstr "Välkommen"
+
+#: src/process_explorer/main.py:295
+msgid "Welcome to Process Explorer"
+msgstr "Välkommen till Processutforskare"
+
+#: src/process_explorer/main.py:296
+msgid ""
+"Monitor and manage system processes.\n"
+"\n"
+"✓ View running processes\n"
+"✓ CPU and memory usage\n"
+"✓ Process tree view"
+msgstr ""
+"Övervaka och hantera systemprocesser.\n"
+"\n"
+"✓ Visa aktiva processer\n"
+"✓ CPU- och minnesanvändning\n"
+"✓ Trädvy för processer"
+
+#: src/process_explorer/main.py:297
+msgid "Get Started"
+msgstr "Kom igång"
