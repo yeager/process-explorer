@@ -1,24 +1,25 @@
 # Process Explorer
 
-GTK4/Adwaita process explorer (htop-style GUI).
+System process explorer with resource usage graphs.
 
-## Features
-- Tree view of processes (parent→child)
-- CPU/RAM/disk usage per process
-- Kill/signal processes
-- Search and sort
-- Auto-refresh (3s interval)
-- System stats overview
+Built with GTK4/Adwaita. Part of the [Danne L10n Suite](https://github.com/yeager/debian-repo).
 
-## Dependencies
+## Installation
+
+### Debian/Ubuntu
 ```bash
-pip install psutil
+sudo apt install process-explorer
 ```
 
-## Run
+### Fedora/RPM
 ```bash
-PYTHONPATH=src python3 -c "from process_explorer.main import main; main()"
+sudo dnf install process-explorer
 ```
 
 ## License
-GPL-3.0-or-later
+
+GPL-3.0
+
+## Author
+
+Daniel Nylander — [danielnylander.se](https://danielnylander.se)
