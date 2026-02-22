@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the process-explorer package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: process-explorer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-22 06:25+0100\n"
+"POT-Creation-Date: 2026-02-22 17:04+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,79 +17,79 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/process_explorer/main.py:38
+#: src/process_explorer/main.py:39
 msgid "Process Explorer"
 msgstr ""
 
-#: src/process_explorer/main.py:45
+#: src/process_explorer/main.py:46
 msgid "Toggle theme"
 msgstr ""
 
-#: src/process_explorer/main.py:56
+#: src/process_explorer/main.py:57
 msgid "Search processes..."
 msgstr ""
 
-#: src/process_explorer/main.py:60
+#: src/process_explorer/main.py:61
 msgid "Kill"
 msgstr ""
 
-#: src/process_explorer/main.py:64
+#: src/process_explorer/main.py:65
 msgid "SIGTERM"
 msgstr ""
 
-#: src/process_explorer/main.py:68
+#: src/process_explorer/main.py:69
 msgid "Auto-refresh"
 msgstr ""
 
-#: src/process_explorer/main.py:90
+#: src/process_explorer/main.py:91
 msgid "PID"
 msgstr ""
 
-#: src/process_explorer/main.py:91
+#: src/process_explorer/main.py:92
 msgid "Name"
 msgstr ""
 
-#: src/process_explorer/main.py:92
+#: src/process_explorer/main.py:93
 msgid "User"
 msgstr ""
 
-#: src/process_explorer/main.py:93
+#: src/process_explorer/main.py:94
 msgid "CPU %"
 msgstr ""
 
-#: src/process_explorer/main.py:94
+#: src/process_explorer/main.py:95
 msgid "MEM %"
 msgstr ""
 
-#: src/process_explorer/main.py:95
+#: src/process_explorer/main.py:96
 msgid "RSS MB"
 msgstr ""
 
-#: src/process_explorer/main.py:96
+#: src/process_explorer/main.py:97
 msgid "Status"
 msgstr ""
 
-#: src/process_explorer/main.py:252
+#: src/process_explorer/main.py:253
 msgid "translator-credits"
 msgstr ""
 
-#: src/process_explorer/main.py:253
+#: src/process_explorer/main.py:254
 msgid "GTK4 process explorer"
 msgstr ""
 
-#: src/process_explorer/main.py:255
+#: src/process_explorer/main.py:256
 msgid "Translations"
 msgstr ""
 
-#: src/process_explorer/main.py:290
+#: src/process_explorer/main.py:291
 msgid "Welcome"
 msgstr ""
 
-#: src/process_explorer/main.py:295
+#: src/process_explorer/main.py:296
 msgid "Welcome to Process Explorer"
 msgstr ""
 
-#: src/process_explorer/main.py:296
+#: src/process_explorer/main.py:297
 msgid ""
 "Monitor and manage system processes.\n"
 "\n"
@@ -98,6 +98,6 @@ msgid ""
 "✓ Process tree view"
 msgstr ""
 
-#: src/process_explorer/main.py:297
+#: src/process_explorer/main.py:298
 msgid "Get Started"
 msgstr ""
