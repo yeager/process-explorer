@@ -8,75 +8,96 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-18 10:19+0100\n"
+"POT-Creation-Date: 2026-02-22 06:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/process_explorer/main.py:17
+#: src/process_explorer/main.py:38
 msgid "Process Explorer"
 msgstr ""
 
-#: src/process_explorer/main.py:24
+#: src/process_explorer/main.py:45
 msgid "Toggle theme"
 msgstr ""
 
-#: src/process_explorer/main.py:35
+#: src/process_explorer/main.py:56
 msgid "Search processes..."
 msgstr ""
 
-#: src/process_explorer/main.py:39
+#: src/process_explorer/main.py:60
 msgid "Kill"
 msgstr ""
 
-#: src/process_explorer/main.py:43
+#: src/process_explorer/main.py:64
 msgid "SIGTERM"
 msgstr ""
 
-#: src/process_explorer/main.py:47
+#: src/process_explorer/main.py:68
 msgid "Auto-refresh"
 msgstr ""
 
-#: src/process_explorer/main.py:69
+#: src/process_explorer/main.py:90
 msgid "PID"
 msgstr ""
 
-#: src/process_explorer/main.py:70
+#: src/process_explorer/main.py:91
 msgid "Name"
 msgstr ""
 
-#: src/process_explorer/main.py:71
+#: src/process_explorer/main.py:92
 msgid "User"
 msgstr ""
 
-#: src/process_explorer/main.py:72
+#: src/process_explorer/main.py:93
 msgid "CPU %"
 msgstr ""
 
-#: src/process_explorer/main.py:73
+#: src/process_explorer/main.py:94
 msgid "MEM %"
 msgstr ""
 
-#: src/process_explorer/main.py:74
+#: src/process_explorer/main.py:95
 msgid "RSS MB"
 msgstr ""
 
-#: src/process_explorer/main.py:75
+#: src/process_explorer/main.py:96
 msgid "Status"
 msgstr ""
 
-#: src/process_explorer/main.py:231
+#: src/process_explorer/main.py:252
 msgid "translator-credits"
 msgstr ""
 
-#: src/process_explorer/main.py:232
+#: src/process_explorer/main.py:253
 msgid "GTK4 process explorer"
 msgstr ""
 
-#: src/process_explorer/main.py:234
+#: src/process_explorer/main.py:255
 msgid "Translations"
+msgstr ""
+
+#: src/process_explorer/main.py:290
+msgid "Welcome"
+msgstr ""
+
+#: src/process_explorer/main.py:295
+msgid "Welcome to Process Explorer"
+msgstr ""
+
+#: src/process_explorer/main.py:296
+msgid ""
+"Monitor and manage system processes.\n"
+"\n"
+"✓ View running processes\n"
+"✓ CPU and memory usage\n"
+"✓ Process tree view"
+msgstr ""
+
+#: src/process_explorer/main.py:297
+msgid "Get Started"
 msgstr ""
