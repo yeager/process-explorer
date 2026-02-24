@@ -5,4 +5,5 @@ Exec=process-explorer
 Icon=io.github.yeager.ProcessExplorer
 Terminal=false
 Type=Application
+StartupWMClass=io.github.yeager.ProcessExplorer
 Categories=System;Monitor;

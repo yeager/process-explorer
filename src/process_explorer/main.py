@@ -260,6 +260,7 @@ class ProcessExplorerWindow(Adw.ApplicationWindow):
 class ProcessExplorerApp(Adw.Application):
     def __init__(self):
         super().__init__(application_id=APP_ID, flags=Gio.ApplicationFlags.FLAGS_NONE)
+        GLib.set_application_name(_("Process Explorer"))
 
     def do_activate(self):
         win = self.props.active_window or ProcessExplorerWindow(application=self)
