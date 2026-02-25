@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Process Explorer
+Name[sv]=Processutforskaren
+Comment=System process explorer and monitor
+Comment[sv]=Utforskare och övervakare av systemprocesser
+Exec=process-explorer
+Icon=process-explorer
+Categories=System;GTK;Monitor;
+Terminal=false
+StartupNotify=true
+StartupWMClass=se.danielnylander.process-explorer
